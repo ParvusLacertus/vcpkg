@@ -1,0 +1,20 @@
+{
+  "name": "python3",
+  "version": "3.11.10",
+  "description": "The Python programming language",
+  "homepage": "https://github.com/python/cpython",
+  "license": "Python-2.0",
+  "default-features": [
+    {
+      "name": "extensions"
+    }
+  ],
+  "features": {
+    "extensions": {
+      "description": "Allow the build and usage of python extensions. On windows this requires python to be a dynamic library!"
+    },
+    "readline": {
+      "description": "Build with readline. Requires system readline to be installed"
+    }
+  }
+}
