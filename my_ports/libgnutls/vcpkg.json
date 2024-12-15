@@ -1,0 +1,13 @@
+{
+  "name": "libgnutls",
+  "version": "3.8.7.1",
+  "description": "A secure communications library implementing the SSL, TLS and DTLS protocols.",
+  "homepage": "https://www.gnutls.org/",
+  "license": null,
+  "supports": "!windows | mingw",
+  "features": {
+    "openssl": {
+      "description": "Enable the OpenSSL compatibility library."
+    }
+  }
+}
