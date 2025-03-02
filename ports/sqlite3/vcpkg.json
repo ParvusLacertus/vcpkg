@@ -1,6 +1,10 @@
 {
   "name": "sqlite3",
+<<<<<<< HEAD
   "version": "3.49.0",
+=======
+  "version": "3.49.1",
+>>>>>>> upstream/master
   "description": "SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.",
   "homepage": "https://sqlite.org/",
   "license": "blessing",

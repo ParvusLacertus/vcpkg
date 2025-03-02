@@ -26,6 +26,10 @@ vcpkg_from_github(
         0005-fix-opencv3-aruco.patch
         0006-remove-apple-sys-path.patch
         0007-fix-g2o.patch
+<<<<<<< HEAD
+=======
+        0008-fix-pcl-include.patch
+>>>>>>> upstream/master
 )
 
 vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTIONS

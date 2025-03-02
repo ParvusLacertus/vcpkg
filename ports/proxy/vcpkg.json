@@ -1,6 +1,10 @@
 {
   "name": "proxy",
+<<<<<<< HEAD
   "version": "3.2.0",
+=======
+  "version": "3.2.1",
+>>>>>>> upstream/master
   "description": "A single-header C++20 library that facilitates runtime polymorphism.",
   "homepage": "https://github.com/microsoft/proxy",
   "license": "MIT",

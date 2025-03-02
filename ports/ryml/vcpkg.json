@@ -1,6 +1,10 @@
 {
   "name": "ryml",
+<<<<<<< HEAD
   "version": "0.7.2",
+=======
+  "version": "0.8.0",
+>>>>>>> upstream/master
   "description": "Rapid YAML library",
   "homepage": "https://github.com/biojppm/rapidyaml",
   "license": "MIT",

@@ -1,7 +1,11 @@
 {
   "name": "salome-med-fichier",
   "version": "4.1.1",
+<<<<<<< HEAD
   "port-version": 2,
+=======
+  "port-version": 3,
+>>>>>>> upstream/master
   "description": "med-fichier provides a low level C API for fine-grained access to the structure of MED files (.med)",
   "homepage": "https://www.salome-platform.org",
   "license": "LGPL-3.0-or-later",

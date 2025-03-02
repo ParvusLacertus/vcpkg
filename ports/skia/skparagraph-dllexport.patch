@@ -1,5 +1,9 @@
 diff --git a/modules/skparagraph/BUILD.gn b/modules/skparagraph/BUILD.gn
+<<<<<<< HEAD
 index 801bbae0b5..399c8a809e 100644
+=======
+index 283eeacebd..742fe4552f 100644
+>>>>>>> upstream/master
 --- a/modules/skparagraph/BUILD.gn
 +++ b/modules/skparagraph/BUILD.gn
 @@ -20,6 +20,9 @@ if (skia_enable_skparagraph && skia_enable_skshaper && skia_enable_skunicode &&
@@ -14,14 +18,23 @@ index 801bbae0b5..399c8a809e 100644
    skia_component("skparagraph") {
 @@ -27,6 +30,7 @@ if (skia_enable_skparagraph && skia_enable_skshaper && skia_enable_skunicode &&
      public_configs = [ ":public_config" ]
+<<<<<<< HEAD
      public = skparagraph_public
      sources = skparagraph_sources
+=======
+     public = skparagraph_core_public
+     sources = skparagraph_core_sources
+>>>>>>> upstream/master
 +    defines = [ "SKPARAGRAPH_IMPLEMENTATION=1" ]
      public_deps = [
        "../..:skia",
        "../skunicode",
 diff --git a/modules/skparagraph/include/FontCollection.h b/modules/skparagraph/include/FontCollection.h
+<<<<<<< HEAD
 index ae2f9922d0..96c0fad8a1 100644
+=======
+index ae2f9922d0..5b77e997bc 100644
+>>>>>>> upstream/master
 --- a/modules/skparagraph/include/FontCollection.h
 +++ b/modules/skparagraph/include/FontCollection.h
 @@ -16,9 +16,29 @@
@@ -56,7 +69,11 @@ index ae2f9922d0..96c0fad8a1 100644
      FontCollection();
  
 diff --git a/modules/skparagraph/include/ParagraphBuilder.h b/modules/skparagraph/include/ParagraphBuilder.h
+<<<<<<< HEAD
 index feac5622bb..9dab883a6d 100644
+=======
+index feac5622bb..72712e121d 100644
+>>>>>>> upstream/master
 --- a/modules/skparagraph/include/ParagraphBuilder.h
 +++ b/modules/skparagraph/include/ParagraphBuilder.h
 @@ -16,7 +16,27 @@
@@ -89,7 +106,11 @@ index feac5622bb..9dab883a6d 100644
      ParagraphBuilder() {}
  
 diff --git a/modules/skparagraph/include/ParagraphStyle.h b/modules/skparagraph/include/ParagraphStyle.h
+<<<<<<< HEAD
 index 98ec228ffb..0e1625ae6a 100644
+=======
+index 98ec228ffb..63e973c7db 100644
+>>>>>>> upstream/master
 --- a/modules/skparagraph/include/ParagraphStyle.h
 +++ b/modules/skparagraph/include/ParagraphStyle.h
 @@ -18,6 +18,26 @@
@@ -129,7 +150,11 @@ index 98ec228ffb..0e1625ae6a 100644
  
      bool operator==(const ParagraphStyle& rhs) const {
 diff --git a/modules/skparagraph/include/TextStyle.h b/modules/skparagraph/include/TextStyle.h
+<<<<<<< HEAD
 index 4bc2fb9dbc..25774c6665 100644
+=======
+index 4bc2fb9dbc..4bee210fb7 100644
+>>>>>>> upstream/master
 --- a/modules/skparagraph/include/TextStyle.h
 +++ b/modules/skparagraph/include/TextStyle.h
 @@ -21,6 +21,26 @@

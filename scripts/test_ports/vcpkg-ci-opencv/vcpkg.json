@@ -74,8 +74,12 @@
       "default-features": false,
       "features": [
         "gapi",
+<<<<<<< HEAD
         "gstreamer",
         "python"
+=======
+        "gstreamer"
+>>>>>>> upstream/master
       ],
       "platform": "!uwp & !(windows & static) & !android"
     },
@@ -83,6 +87,17 @@
       "name": "opencv",
       "default-features": false,
       "features": [
+<<<<<<< HEAD
+=======
+        "python"
+      ],
+      "platform": "!uwp & !(windows & static) & !android & !linux"
+    },
+    {
+      "name": "opencv",
+      "default-features": false,
+      "features": [
+>>>>>>> upstream/master
         "ovis"
       ],
       "platform": "!uwp & !android & !(windows & static)"
