@@ -387,6 +387,17 @@ gainput:x64-android=fail
 gamenetworkingsockets:arm-neon-android=fail
 gamenetworkingsockets:arm64-android=fail
 gamenetworkingsockets:x64-android=fail
+<<<<<<< HEAD
+# VS 2022 Update 3 seems to have broken Gazebo: https://devdiv.visualstudio.com/DefaultCollection/DevDiv/_workitems/edit/1522474
+# gazebo is broken due it depend on old ports that already in the new versions.
+# There is an open PR that try to fix that.
+gazebo:x64-linux=fail
+gazebo:x64-windows-release=fail
+gazebo:x64-windows-static-md=fail
+gazebo:x64-windows=fail
+gazebo:x86-windows=skip
+=======
+>>>>>>> upstream/master
 gdk-pixbuf:arm-neon-android=fail
 gdk-pixbuf:arm64-android=fail
 gdk-pixbuf:x64-android=fail
@@ -458,7 +469,11 @@ iceoryx:arm64-android=fail
 iceoryx:x64-android=fail
 ijg-libjpeg:arm-neon-android=skip
 ijg-libjpeg:arm64-android=skip
+<<<<<<< HEAD
+ijg-libjpeg:arm64-osx= skip
+=======
 ijg-libjpeg:arm64-osx=skip
+>>>>>>> upstream/master
 ijg-libjpeg:arm64-uwp=skip
 ijg-libjpeg:arm64-windows-static-md=skip
 ijg-libjpeg:arm64-windows=skip
@@ -795,6 +810,11 @@ nrf-ble-driver:arm64-android=fail
 nrf-ble-driver:x64-android=fail
 nvtt:x64-android=fail
 oatpp-libressl:x64-android=fail
+<<<<<<< HEAD
+ode:arm64-windows=fail
+ode:arm64-windows-static-md=fail
+=======
+>>>>>>> upstream/master
 offscale-libetcd-cpp:arm64-uwp=fail
 offscale-libetcd-cpp:x64-uwp=fail
 ogdf:arm64-android=fail
@@ -1333,6 +1353,11 @@ vcpkg-ci-mathgl:x86-windows=pass
 vcpkg-ci-opencv:arm-neon-android=pass
 vcpkg-ci-opencv:arm64-android=pass
 vcpkg-ci-opencv:arm64-osx=pass
+<<<<<<< HEAD
+vcpkg-ci-opencv:arm64-uwp=pass
+vcpkg-ci-opencv:arm64-windows-static-md=pass
+vcpkg-ci-opencv:arm64-windows=pass
+=======
 # Incorrect use of arm64 intrinsics in <wchar.h> in VS 2022 17.13 broke these with -Zc:arm64-aliased-neon-types-
 #vcpkg-ci-opencv:arm64-uwp=pass
 opencv4:arm64-uwp=fail
@@ -1340,6 +1365,7 @@ opencv4:arm64-uwp=fail
 opencv4:arm64-windows-static-md=fail
 #vcpkg-ci-opencv:arm64-windows=pass
 opencv4:arm64-windows=fail
+>>>>>>> upstream/master
 vcpkg-ci-opencv:x64-android=pass
 vcpkg-ci-opencv:x64-linux=pass
 vcpkg-ci-opencv:x64-osx=pass

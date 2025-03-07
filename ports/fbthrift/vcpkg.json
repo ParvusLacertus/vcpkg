@@ -1,6 +1,14 @@
 {
   "name": "fbthrift",
+<<<<<<< HEAD
   "version-string": "2025.03.03.00",
+=======
+<<<<<<< HEAD
+  "version-string": "2025.02.10.00",
+=======
+  "version-string": "2025.02.24.00",
+>>>>>>> upstream/master
+>>>>>>> 874d5b2898d28dcfd2b1620799965d843c8d08df
   "description": "Facebook's branch of Apache Thrift, including a new C++ server.",
   "homepage": "https://github.com/facebook/fbthrift",
   "license": "Apache-2.0",

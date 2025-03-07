@@ -53,7 +53,10 @@ vcpkg_cmake_configure(
         -DPCL_SHARED_LIBS=${PCL_SHARED_LIBS}
         -DPCL_ENABLE_MARCHNATIVE=OFF
         ${PCL_DONT_TRY_SSE}
+<<<<<<< HEAD
+=======
         -DUSE_HOMEBREW_FALLBACK=OFF
+>>>>>>> upstream/master
         # WITH
         -DWITH_DAVIDSDK=OFF
         -DWITH_DOCS=OFF

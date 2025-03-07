@@ -1,7 +1,11 @@
 {
   "name": "dartsim",
   "version": "6.15.0",
+<<<<<<< HEAD
+  "port-version": 1,
+=======
   "port-version": 3,
+>>>>>>> upstream/master
   "description": "Dynamic Animation and Robotics Toolkit",
   "homepage": "https://dartsim.github.io/",
   "license": "BSD-2-Clause",

@@ -1,6 +1,14 @@
 {
   "name": "fizz",
+<<<<<<< HEAD
   "version-string": "2025.03.03.00",
+=======
+<<<<<<< HEAD
+  "version-string": "2025.02.10.00",
+=======
+  "version-string": "2025.02.24.00",
+>>>>>>> upstream/master
+>>>>>>> 874d5b2898d28dcfd2b1620799965d843c8d08df
   "description": "a TLS 1.3 implementation by Facebook",
   "homepage": "https://github.com/facebookincubator/fizz",
   "license": "BSD-3-Clause",

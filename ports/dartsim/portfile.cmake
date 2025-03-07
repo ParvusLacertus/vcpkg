@@ -48,9 +48,16 @@ vcpkg_cmake_configure(
         -DDART_SKIP_IPOPT=ON
         -DDART_SKIP_NLOPT=ON
         -DDART_SKIP_pagmo=ON
+<<<<<<< HEAD
+        -DDART_SKIP_spdlog=ON
+        -Durdfdom_headers_VERSION_MAJOR=1 # urdfdom-headers does not expose a header macro for its version.
+        -Durdfdom_headers_VERSION_MINOR=0 # versions of at least 1.0.0 use std:: constructs in their ABI instead of boost:: ones.
+        -Durdfdom_headers_VERSION_PATCH=0
+=======
         -DCMAKE_DISABLE_FIND_PACKAGE_Python3=ON
     OPTIONS_DEBUG
         -DDART_PKG_DEBUG_POSTFIX=d
+>>>>>>> upstream/master
     MAYBE_UNUSED_VARIABLES
         CMAKE_DISABLE_FIND_PACKAGE_urdfdom
         CMAKE_REQUIRE_FIND_PACKAGE_GLUT
