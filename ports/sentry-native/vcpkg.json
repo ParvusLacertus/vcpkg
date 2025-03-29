@@ -1,14 +1,10 @@
 {
   "name": "sentry-native",
 <<<<<<< HEAD
-  "version": "0.8.1",
-=======
-<<<<<<< HEAD
   "version": "0.7.20",
 =======
   "version": "0.8.0",
 >>>>>>> upstream/master
->>>>>>> 874d5b2898d28dcfd2b1620799965d843c8d08df
   "description": "Sentry SDK for C, C++ and native applications.",
   "homepage": "https://sentry.io/",
   "license": "MIT",
